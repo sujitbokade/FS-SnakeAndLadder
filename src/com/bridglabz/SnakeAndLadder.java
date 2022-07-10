@@ -24,7 +24,7 @@ public class SnakeAndLadder {
                 Position = Position;
             }
             if(Position>100){
-                Position=100;
+                Position=Position-dice;
             }
             if(Position<0){
                 Position=0;
